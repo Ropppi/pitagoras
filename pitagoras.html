@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <img src="igen.png" alt="" width="300px">
+    <h1>pitagorasz</h1>
+</head>
+<body>
+    <input id="a_oldal" type="number" placeholder="a_oldal" required>
+    <br>
+    <input id="b_oldal" type="number" placeholder="b_oldal" required>
+    <br>
+    <input id="eredmeny" placeholder="eredmény" type="text">
+    <button onclick="szamol()">kiszámít</button>
+    <script>
+        function szamol(){
+           eredmeny.value = Math.sqrt(a_oldal.value + a_oldal.value + b_oldal.value * b_oldal.value)
+        }
+
+    </script>
+</body>
+</html>
